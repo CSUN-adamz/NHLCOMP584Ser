@@ -1,0 +1,45 @@
+.player-profile {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  .profile-container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+
+  .player-image img {
+    border-radius: 8px;
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .player-info p {
+    margin: 6px 0;
+  }
+
+  .stats-table {
+    width: 100%;
+    border-collapse: collapse;
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f4f4f4;
+    }
+
+    tr:nth-child(even) {
+      background-color: #fafafa;
+    }
+  }
+}

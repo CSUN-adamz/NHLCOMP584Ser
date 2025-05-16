@@ -1,0 +1,95 @@
+  <!-- HomePage -->
+
+<div style="text-align: center; margin-top: 1rem;">
+  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/05_NHL_Shield.svg/1920px-05_NHL_Shield.svg.png" alt="NHL Logo" style="height: 60px;">
+  <h1>2024 NHL Season Homepage!</h1>
+</div>
+
+
+<div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; margin-top: 2rem;">
+
+  <!-- Standings Table -->
+  <div style="flex: 1 1 45%; min-width: 300px;">
+    <h2> Standings</h2>
+    <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd;">
+      <thead style="background-color: #f4f4f4;">
+        <tr>
+          <th>Team</th>
+          <th>Placement</th>
+          <th>Points</th>
+          <th>Last Game</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Los Angeles Kings</td>
+          <td>{{ forecasts[0].temperatureC }}</td>
+          <td>{{ forecasts[0].temperatureF }}</td>
+          <td>{{ forecasts[0].summary }}</td>
+        </tr>
+        <tr>
+          <td>Edmonton Oilers</td>
+          <td>{{ forecasts[1].temperatureC }}</td>
+          <td>{{ forecasts[1].temperatureF }}</td>
+          <td>{{ forecasts[1].summary }}</td>
+        </tr>
+        <tr>
+          <td>Vancouver Canucks</td>
+          <td>{{ forecasts[2].temperatureC }}</td>
+          <td>{{ forecasts[2].temperatureF }}</td>
+          <td>{{ forecasts[2].summary }}</td>
+        </tr>
+        <tr>
+          <td>San Jose Sharks</td>
+          <td>{{ forecasts[3].temperatureC }}</td>
+          <td>{{ forecasts[3].temperatureF }}</td>
+          <td>{{ forecasts[3].summary }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- News Headlines -->
+  <div style="flex: 1 1 45%; min-width: 300px;">
+    <h2>News Headlines</h2>
+    <ul>
+      <li>Connor McDavid reaches 100 assists milestone</li>
+      <li>Bruins clinch playoff spot with comeback win</li>
+      <li>Canucks unveil retro jersey night</li>
+    </ul>
+  </div>
+
+  
+
+  <!-- Player of the Week -->
+  <div style="flex: 1 1 45%; min-width: 300px;">
+    <h2> Player of the Week</h2>
+    <div style="border: 1px solid #ccc; padding: 1rem; border-radius: 8px; background-color: #f9f9f9;">
+      <strong>Leon Draisaitl (Edmonton Oilers)</strong>
+      <p>Stats this week:</p>
+      <ul>
+        <li>3 Goals</li>
+        <li>5 Assists</li>
+        <li>+6 Rating</li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- Upcoming Matchess -->
+  <div style="flex: 1 1 45%; min-width: 300px;">
+    <h2>Upcoming Matches</h2>
+    <ul>
+      <li>Kings vs Oilers – May 16, 7:00 PM PST</li>
+      <li>Canucks vs Sharks – May 17, 6:30 PM PST</li>
+      <li>Maple Leafs vs Bruins – May 18, 5:00 PM EST</li>
+    </ul>
+  </div>
+
+
+</div>
+
+
+<footer style="text-align:center; margin-top: 3rem; font-size: 0.9rem; color: gray;">
+  <p>Data is simulated for project demonstration purposes. Not affiliated with the NHL.</p>
+</footer>

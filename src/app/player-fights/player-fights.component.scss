@@ -1,0 +1,38 @@
+.fights-header {
+  text-align: center;
+  margin-bottom: 2rem;
+
+  h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+  }
+
+  p {
+    color: #555;
+    font-size: 1rem;
+  }
+}
+
+.fights-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+
+  th, td {
+    padding: 0.75rem 1rem;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #ececec;
+    font-weight: bold;
+    color: #333;
+  }
+
+  tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+}
